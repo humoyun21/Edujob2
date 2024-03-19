@@ -1,0 +1,95 @@
+#jobpilot {
+  padding: 100px 0;
+  .container {
+    h4 {
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 40px;
+      text-align: center;
+      color: #18191c;
+      margin-bottom: 50px;
+    }
+    .jobpilot {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+
+      .jobpilot_card {
+        width: 312px;
+        padding: 24px;
+        border-radius: 12px;
+        cursor: pointer;
+        i {
+          font-size: 50px;
+          margin-left: 96px;
+          color: #0a65cc;
+          background: white;
+          border-radius: 100%;
+          padding: 15px;
+        }
+
+        h6 {
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 500;
+          color: #18191c;
+          text-align: center;
+          margin-top: 24px;
+          margin-bottom: 12px;
+        }
+
+        p {
+          font-family: Inter;
+          font-weight: 400;
+          text-align: center;
+          color: #767f8c;
+          font-size: 14px;
+        }
+
+        &:hover {
+          background: white;
+          i {
+            background: #0a65cc;
+            color: white;
+            transition: all 0.1s ease;
+          }
+          transition: all 0.2s linear;
+
+          p {
+            font-family: Inter;
+            background: white;
+            transition: all 0.2s linear;
+          }
+
+          h6 {
+            font-family: Inter;
+            transition: all 0.2s linear;
+            background: white;
+          }
+        }
+      }
+
+      img {
+        position: absolute;
+      }
+
+      #img1 {
+        top: 0;
+        left: 220px;
+        background: transparent;
+      }
+
+      #img2 {
+        bottom: -30px;
+        left: 550px;
+        background: transparent;
+      }
+
+      #img3 {
+        top: 0;
+        background: transparent;
+        right: 210px;
+      }
+    }
+  }
+}

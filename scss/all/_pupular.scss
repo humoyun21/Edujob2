@@ -1,0 +1,51 @@
+#popular {
+  margin-top: 100px;
+  background: white;
+
+  .container {
+    .vokansi-wrapper {
+      background: white;
+      padding-bottom: 100px;
+
+      h4 {
+        font-family: Inter;
+        background: white;
+        padding-top: 100px;
+        font-size: 40px;
+        font-weight: 500;
+        color: #18191c;
+        margin-bottom: 50px;
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: white;
+        li {
+          list-style-type: none;
+
+          background: white;
+          width: 312px;
+          margin-bottom: 32px;
+
+          a {
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 18px;
+            color: #18191c;
+            background: white;
+          }
+
+          p {
+            font-family: Inter;
+            margin-top: 8px;
+            background: white;
+            color: #767f8c;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

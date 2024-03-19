@@ -1,0 +1,129 @@
+#intro {
+  padding-top: 150px;
+  .container {
+    .intro-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .intro-left {
+        width: 679px;
+        h4 {
+          font-family: Inter;
+          font-weight: 500;
+          font-size: 56px;
+          width: 610px;
+          line-height: 64px;
+          margin-bottom: 24px;
+        }
+        p {
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 28px;
+          width: 536px;
+          color: #5e6670;
+          margin-bottom: 32px;
+        }
+
+        div {
+          margin-bottom: 24px;
+          padding: 12px;
+          height: 80px;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          background: white;
+
+          div {
+            position: relative;
+            width: 288px;
+
+            input {
+              font-family: Inter;
+              padding: 20px;
+              width: 100%;
+              padding-left: 25px;
+              outline: none;
+              color: #9199a3;
+              font-size: 16px;
+              font-weight: 400;
+              border: none;
+              background: white;
+            }
+
+            i {
+              left: 0;
+              background: white;
+              font-size: 24px;
+              position: absolute;
+            }
+          }
+
+          button {
+            cursor: pointer;
+            font-family: Inter;
+            border-radius: 12px;
+            padding: 18px 29px;
+            background: #0a65cc;
+            border: none;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            width: 131px;
+          }
+        }
+
+        p:last-child {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .card-wrapper {
+      margin-top: 109px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .card {
+        display: flex;
+        align-items: center;
+        background: white;
+        width: 312px;
+        height: 112px;
+        padding: 20px;
+        gap: 20px;
+        cursor: pointer;
+
+        i {
+          padding: 16px;
+          font-size: 50px;
+          color: #0a65cc;
+        }
+
+        div {
+          background: white;
+          h4 {
+            font-family: Inter;
+            font-weight: 500;
+            background: white;
+            font-size: 24px;
+            margin-bottom: 6px;
+          }
+
+          p {
+            font-family: Inter;
+            background: white;
+            color: #767f8c;
+          }
+        }
+
+        &:hover > i {
+          background: #0a65cc;
+          color: white;
+          transition: all 0.1s ease-in-out;
+        }
+      }
+    }
+  }
+}

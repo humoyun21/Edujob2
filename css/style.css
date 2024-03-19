@@ -1,0 +1,794 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../assets/fonts/Inter_Tight/static/InterTight-Black.ttf);
+  src: url(../assets/fonts/Inter_Tight/static/InterTight-Bold.ttf);
+  src: url(../assets/fonts/Inter_Tight/static/InterTight-Medium.ttf);
+  src: url(../assets/fonts/Inter_Tight/static/InterTight-Regular.ttf);
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 10px;
+}
+
+header {
+  width: 100%;
+}
+header .headerrr {
+  background: var(--Gray-50, #f1f2f4);
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+header .headerrr .header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .headerrr .header-top ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+header .headerrr .header-top ul li {
+  list-style-type: none;
+  color: var(--Gray-600, #5e6670);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+header .headerrr .header-top ul li:hover {
+  color: var(--Primary-500, #0a65cc);
+  border-bottom: 2px solid #0a65cc;
+}
+header .headerrr .header-top-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+header .headerrr .header-top-right p {
+  color: var(--Gray-900, #18191c);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+header .headerrr .header-top-right #mySelect {
+  border: none;
+  background-color: transparent;
+  color: var(--Gray-600, #5e6670);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+header .header-bottom {
+  background: white;
+  padding: 21px 0;
+}
+header .header-bottom .container {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-bottom .container div {
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+header .header-bottom .container div div {
+  background: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 688px;
+  border: 1px solid #e4e5e8;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0 24px;
+}
+header .header-bottom .container div div select {
+  font-family: Inter;
+  padding: 8px 0;
+  border: none;
+  background: white;
+}
+header .header-bottom .container div div i {
+  font-family: Inter;
+  font-size: 24px;
+  left: 150px;
+  position: absolute;
+  background: white;
+}
+header .header-bottom .container div div input {
+  background: white;
+  width: 100%;
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 45px;
+  border-left: 1px solid #e4e5e8;
+  font-family: Inter;
+}
+header .header-bottom .container .header-buttons {
+  display: flex;
+  align-items: center;
+}
+header .header-bottom .container .header-buttons button:first-child {
+  background: white;
+  padding: 12px 24px;
+  color: #0a65cc;
+  border: 1px solid #0a65cc;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Inter;
+  cursor: pointer;
+}
+header .header-bottom .container .header-buttons button:last-child {
+  font-family: Inter;
+  padding: 12px 24px;
+  color: white;
+  border: 1px solid #0a65cc;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  background: #0a65cc;
+}
+
+main {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+#intro {
+  padding-top: 150px;
+}
+#intro .container .intro-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#intro .container .intro-wrapper .intro-left {
+  width: 679px;
+}
+#intro .container .intro-wrapper .intro-left h4 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 56px;
+  width: 610px;
+  line-height: 64px;
+  margin-bottom: 24px;
+}
+#intro .container .intro-wrapper .intro-left p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 536px;
+  color: #5e6670;
+  margin-bottom: 32px;
+}
+#intro .container .intro-wrapper .intro-left div {
+  margin-bottom: 24px;
+  padding: 12px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: white;
+}
+#intro .container .intro-wrapper .intro-left div div {
+  position: relative;
+  width: 288px;
+}
+#intro .container .intro-wrapper .intro-left div div input {
+  font-family: Inter;
+  padding: 20px;
+  width: 100%;
+  padding-left: 25px;
+  outline: none;
+  color: #9199a3;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  background: white;
+}
+#intro .container .intro-wrapper .intro-left div div i {
+  left: 0;
+  background: white;
+  font-size: 24px;
+  position: absolute;
+}
+#intro .container .intro-wrapper .intro-left div button {
+  cursor: pointer;
+  font-family: Inter;
+  border-radius: 12px;
+  padding: 18px 29px;
+  background: #0a65cc;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  width: 131px;
+}
+#intro .container .intro-wrapper .intro-left p:last-child {
+  font-size: 14px;
+}
+#intro .container .card-wrapper {
+  margin-top: 109px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#intro .container .card-wrapper .card {
+  display: flex;
+  align-items: center;
+  background: white;
+  width: 312px;
+  height: 112px;
+  padding: 20px;
+  gap: 20px;
+  cursor: pointer;
+}
+#intro .container .card-wrapper .card i {
+  padding: 16px;
+  font-size: 50px;
+  color: #0a65cc;
+}
+#intro .container .card-wrapper .card div {
+  background: white;
+}
+#intro .container .card-wrapper .card div h4 {
+  font-family: Inter;
+  font-weight: 500;
+  background: white;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+#intro .container .card-wrapper .card div p {
+  font-family: Inter;
+  background: white;
+  color: #767f8c;
+}
+#intro .container .card-wrapper .card:hover > i {
+  background: #0a65cc;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+
+#popular {
+  margin-top: 100px;
+  background: white;
+}
+#popular .container .vokansi-wrapper {
+  background: white;
+  padding-bottom: 100px;
+}
+#popular .container .vokansi-wrapper h4 {
+  font-family: Inter;
+  background: white;
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #18191c;
+  margin-bottom: 50px;
+}
+#popular .container .vokansi-wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: white;
+}
+#popular .container .vokansi-wrapper ul li {
+  list-style-type: none;
+  background: white;
+  width: 312px;
+  margin-bottom: 32px;
+}
+#popular .container .vokansi-wrapper ul li a {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  color: #18191c;
+  background: white;
+}
+#popular .container .vokansi-wrapper ul li p {
+  font-family: Inter;
+  margin-top: 8px;
+  background: white;
+  color: #767f8c;
+  font-size: 14px;
+}
+
+#category {
+  background: white;
+}
+#category .container {
+  padding: 100px 0;
+  background: white;
+}
+#category .container .category-wrapper {
+  background: white;
+}
+#category .container .category-wrapper div:first-child {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#category .container .category-wrapper div:first-child h4 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #18191c;
+  background: white;
+}
+#category .container .category-wrapper div:first-child button {
+  padding: 12px 24px;
+  border: 1px solid rgb(213, 209, 209);
+  background: transparent;
+  color: #0a65cc;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#category .container .category-wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: white;
+}
+#category .container .category-wrapper ul li {
+  font-family: Inter;
+  cursor: pointer;
+  gap: 20px;
+  padding: 24px;
+  margin-bottom: 24px;
+  width: 312px;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+#category .container .category-wrapper ul li i {
+  border-radius: 10px;
+  font-size: 40px;
+  padding: 15px;
+  background: #e7f0fa;
+}
+#category .container .category-wrapper ul li div {
+  background: white;
+}
+#category .container .category-wrapper ul li div h5 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 8px;
+  background: white;
+}
+#category .container .category-wrapper ul li div p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5e6670;
+}
+#category .container .category-wrapper ul li:hover i {
+  background: #0a65cc;
+  color: white;
+  transition: all 0.1s linear;
+}
+#category .container .category-wrapper ul li:hover div h5 {
+  font-family: Inter;
+  color: #0a65cc;
+  transition: all 0.1s linear;
+}
+
+#jobpilot {
+  padding: 100px 0;
+}
+#jobpilot .container h4 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  color: #18191c;
+  margin-bottom: 50px;
+}
+#jobpilot .container .jobpilot {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+#jobpilot .container .jobpilot .jobpilot_card {
+  width: 312px;
+  padding: 24px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+#jobpilot .container .jobpilot .jobpilot_card i {
+  font-size: 50px;
+  margin-left: 96px;
+  color: #0a65cc;
+  background: white;
+  border-radius: 100%;
+  padding: 15px;
+}
+#jobpilot .container .jobpilot .jobpilot_card h6 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  color: #18191c;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+#jobpilot .container .jobpilot .jobpilot_card p {
+  font-family: Inter;
+  font-weight: 400;
+  text-align: center;
+  color: #767f8c;
+  font-size: 14px;
+}
+#jobpilot .container .jobpilot .jobpilot_card:hover {
+  background: white;
+  transition: all 0.2s linear;
+}
+#jobpilot .container .jobpilot .jobpilot_card:hover i {
+  background: #0a65cc;
+  color: white;
+  transition: all 0.1s ease;
+}
+#jobpilot .container .jobpilot .jobpilot_card:hover p {
+  font-family: Inter;
+  background: white;
+  transition: all 0.2s linear;
+}
+#jobpilot .container .jobpilot .jobpilot_card:hover h6 {
+  font-family: Inter;
+  transition: all 0.2s linear;
+  background: white;
+}
+#jobpilot .container .jobpilot img {
+  position: absolute;
+}
+#jobpilot .container .jobpilot #img1 {
+  top: 0;
+  left: 220px;
+  background: transparent;
+}
+#jobpilot .container .jobpilot #img2 {
+  bottom: -30px;
+  left: 550px;
+  background: transparent;
+}
+#jobpilot .container .jobpilot #img3 {
+  top: 0;
+  background: transparent;
+  right: 210px;
+}/*# sourceMappingURL=style.css.map */
