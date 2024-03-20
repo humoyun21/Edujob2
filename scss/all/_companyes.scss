@@ -1,0 +1,161 @@
+#compayes {
+  .company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    h2 {
+      color: var(--Gray-900, #18191c);
+      text-align: center;
+
+      /* Heading/01 */
+      font-family: Inter;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 48px; /* 120% */
+    }
+    &-btn {
+      display: flex;
+      align-self: center;
+      gap: 16px;
+      margin-bottom: 50px;
+      button {
+        border-radius: 5px;
+        background: var(--Primary-50, #e7f0fa);
+        display: flex;
+        padding: 12px;
+        align-items: flex-start;
+        gap: 10px;
+        border: none;
+      }
+    }
+  }
+  .company-wrap {
+    width: 312px;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 12px;
+    border: 1px solid var(--Gray-Scale-50, #edeff5);
+    background: var(--Gray-Scale-White, #fff);
+    button {
+      display: flex;
+      width: 248px;
+      padding: 12px 24px;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      border-radius: 3px;
+      background: var(--Primary-50, #e7f0fa);
+      border: none;
+      color: var(--Primary-500, #0a65cc);
+
+      /* Button/Button */
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px; /* 150% */
+      text-transform: capitalize;
+    }
+    &-card {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      &-left {
+        display: flex;
+        padding: 16px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
+        background: #ea4c89;
+      }
+      &-right {
+        &-text {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          p {
+            color: var(--Gray-Scale-900, #191f33);
+
+            /* Body/Large/500 */
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 155.556% */
+          }
+          span {
+            color: var(--Danger-500, #e05151);
+            display: flex;
+            padding: 3px 12px;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 52px;
+            background: var(--Danger-50, #fceeee);
+            /* Body/Small/400 */
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; /* 142.857% */
+          }
+        }
+        &-bottom {
+          display: flex;
+          align-items: center;
+          p {
+            color: var(--Gray-Scale-400, #939aad);
+
+            /* Body/Small/400 */
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; /* 142.857% */
+          }
+        }
+      }
+    }
+  }
+  .company-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  .company-wrap-card-left1 {
+    border-radius: 4px;
+    background: #6fda44;
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .company-wrap-card-left2 {
+    border-radius: 4px;
+    background: var(--Gray-Scale-50, #edeff5);
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .company-wrap-card-left3 {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #1e60c6;
+  }
+  .company-all1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+}

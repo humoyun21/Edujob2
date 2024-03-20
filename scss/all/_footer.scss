@@ -1,4 +1,101 @@
-footer{
-    width: 100%;
-    // codes
+footer {
+  width: 100%;
+  background: var(--Gray-900, #18191c);
+  box-shadow: 0px 1px 0px 0px #2f3338 inset;
+  .footer-top-wrap {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 86px;
+    justify-content: space-between;
+  }
+  .footer-bottom-wrap {
+    border-top: 2px solid black;
+    display: flex;
+
+    padding: 24px 300px;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      color: var(--Gray-500, #767f8c);
+
+      /* Body/Small/400 */
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 142.857% */
+    }
+    &-icon {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  .footer-top-wrap-left {
+    h3 {
+      color: var(--Gray-600, #5e6670);
+
+      /* Body/Large/400 */
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 155.556% */
+      span {
+        color: var(--Gray-White, #fff);
+
+        /* Body/Large/500 */
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 155.556% */
+      }
+    }
+    p {
+      color: var(--Gray-500, #767f8c);
+
+      /* Body/Small/400 */
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px; /* 142.857% */
+      width: 312px;
+    }
+  }
+  .footer-top-wrap-right {
+    display: flex;
+    align-items: center;
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      li {
+        list-style-type: none;
+        h3 {
+          color: var(--Gray-White, #fff);
+
+          /* Body/XL/500 */
+          font-family: Inter;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 32px; /* 160% */
+        }
+        p {
+          color: var(--Gray-400, #9199a3);
+
+          /* Body/Medium/400 */
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+        }
+      }
+    }
+  }
 }
